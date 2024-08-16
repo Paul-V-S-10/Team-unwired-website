@@ -1,0 +1,53 @@
+.footer{
+    width: 100%;
+    background-color: #04091E;
+    color: white;
+    padding: 10px 80px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.footerContainer{
+    padding: 100px 0;
+    width: 100%;
+
+}
+.footerTop{
+    display: flex;
+    gap: 100px;
+}
+.footerText{
+    line-height: 20px;
+}
+.footerText h3{
+    margin-bottom: 10px;
+}
+.footerText p{
+    margin-bottom: 10px;
+    color: #777777;
+    font-weight: 300;
+}
+
+.footerTop img{
+    width: 150px;
+    object-fit: contain;
+    padding: 0 100px;
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    color: #777777;
+
+}
+.footerBottomCopywrite span{
+    color: #F6631A;
+}
+.footerBottomLogos{
+
+}
+.footerBottomLogos .logo{
+    background-color: #1D2235;
+    padding: 10px;
+    margin: 2px;
+    color: white;
+}

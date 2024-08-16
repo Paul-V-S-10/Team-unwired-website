@@ -1,0 +1,48 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0
+}
+.navbarTop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #04091E;
+    color: white;
+    padding: 10px 80px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.navbarTopSocial{
+    width: 50%;
+    display: flex;
+    gap:25px;
+}
+.navbarTop p{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbarMenu{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 80px;
+    background-color: #04091ee7;
+    display: flex;
+}
+.navbarMenu img{
+    width: 200px;
+}
+.navbarMenuLinks{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+.navbarMenuLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
