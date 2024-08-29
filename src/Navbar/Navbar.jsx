@@ -11,10 +11,10 @@ const Navbar = () => {
         <div className="navbar">
             <div className="navbarTop">
                 <div className="navbarTopSocial">
-                    <FaInstagram />
-                    <FaLinkedinIn />
-                    <FaFacebookF />
-                    <TfiYoutube />
+                    <FaInstagram className='icon'/>
+                    <FaLinkedinIn className='icon'/>
+                    <FaFacebookF className='icon'/>
+                    <TfiYoutube className='icon'/>
                 </div>
                 <p>teamunwired@nitc.ac.in</p>
             </div>

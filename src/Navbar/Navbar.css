@@ -1,7 +1,8 @@
 .navbar{
     width: 100%;
-    position: fixed;
-    top: 0
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 .navbarTop{
     width: 100%;
@@ -18,6 +19,9 @@
     display: flex;
     gap:25px;
 }
+/* .navbarTopSocial .icon:hover{
+    color: #F6631A;
+} */
 .navbarTop p{
     width: 50%;
     display: flex;
@@ -46,3 +50,6 @@
     font-size: 13px;
     font-weight: 400;
 }
+/* .navbarMenuLinks a:hover{
+    color: #F6631A;
+} */
